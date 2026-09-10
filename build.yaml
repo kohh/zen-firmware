@@ -2,10 +2,10 @@ include:
   - board: bmp_boost
     shield: zen_right
     snippet: "studio-rpc-usb-uart split-central input-trackball-pmw3610 input-listener input-split-listener-left-all diag-split-log"
-    artifact-name: DIAG_zen_right_trackball_pmw3610_central
+    artifact-name: DIAG2_zen_right_trackball_pmw3610_central
   - board: bmp_boost
     shield: zen_left
     snippet: "studio-rpc-usb-uart diag-split-log"
-    artifact-name: DIAG_zen_left_peripheral
+    artifact-name: DIAG2_zen_left_peripheral
   - board: bmp_boost
     shield: settings_reset
