@@ -1,0 +1,12 @@
+/* DIAG: USB CDC console for ZMK logging (bmp_boost has no console CDC node by default) */
+/ {
+    chosen {
+        zephyr,console = &diag_log_uart;
+    };
+};
+
+&zephyr_udc0 {
+    diag_log_uart: diag_log_uart {
+        compatible = "zephyr,cdc-acm-uart";
+    };
+};

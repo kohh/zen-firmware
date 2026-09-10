@@ -1,0 +1,4 @@
+name: diag-split-log
+append:
+  EXTRA_DTC_OVERLAY_FILE: diag-split-log.overlay
+  EXTRA_CONF_FILE: diag-split-log.conf
