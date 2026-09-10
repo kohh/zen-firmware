@@ -1,0 +1,4 @@
+name: diag-log
+append:
+  EXTRA_DTC_OVERLAY_FILE: diag-log.overlay
+  EXTRA_CONF_FILE: diag-log.conf
