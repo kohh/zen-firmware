@@ -22,8 +22,8 @@
             bindings = <
 &kp TAB       &kp Q      &kp W             &kp E         &kp R      &kp T               &kp Y        &kp U                 &kp I  &kp O           &kp P           &kp BSPC
 &kp LEFT_ALT  &kp A      &kp S             &kp D         &kp F      &kp G               &kp H        &kp J                 &kp K  &kp L           &kp MINUS       &kp ENTER
-&kp LSHFT     &kp Z      &kp X             &kp C         &kp V      &kp B               &kp SPACE    &kp SPACE             &kp N  &kp M           &kp COMMA       &kp DOT    &kp SLASH  &kp INT_RO
-&kp ESCAPE    &kp RCTRL  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LCTRL  &lt 4 INT_MUHENKAN  &lt 2 SPACE  &mt LCTRL INT_HENKAN  &mo 3  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RCTRL
+&kp LSHFT     &kp Z      &kp X             &kp C         &kp V      &kp B               &kp SPACE    &kp SPACE             &kp N  &kp M           &kp COMMA       &kp DOT        &kp SLASH  &kp INT_RO
+&kp ESCAPE    &kp RCTRL  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LCTRL  &lt 4 INT_MUHENKAN  &lt 2 SPACE  &mt LCTRL INT_HENKAN  &mo 3  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ALT
             >;
         };
 
