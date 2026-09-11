@@ -56,10 +56,10 @@
 
         layer_4 {
             bindings = <
-&trans      &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(F4)  &kp LEFT      &kp DOWN      &kp UP_ARROW      &kp RIGHT      &kp F2         &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &kp LC(PG_UP)     &kp LC(PG_DN)  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &trans            &trans         &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &kp LG(LS(S))  &kp RBKT  &kp NUHS  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
+&kp LA(F4)  &kp LEFT      &kp DOWN      &kp UP_ARROW      &kp RIGHT      &kp F2         &trans    &trans    &trans            &kp SEMICOLON     &kp APOSTROPHE         &trans
+&trans      &trans        &trans        &kp LC(PG_UP)     &kp LC(PG_DN)  &trans         &trans    &trans    &trans            &trans            &kp EXCLAMATION        &kp QUESTION         &trans  &kp LEFT_BRACKET
+&trans      &trans        &trans        &trans            &trans         &trans         &trans    &trans    &trans            &trans            &trans                 &trans
             >;
         };
 
